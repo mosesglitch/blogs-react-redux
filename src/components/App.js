@@ -1,11 +1,9 @@
-import logo from "./logo.svg";
-import "./App.css";
 import { scryRenderedComponentsWithType } from "react-dom/test-utils";
-
+import PostList from "./PostList";
 import React from "react";
 
 const App = () => {
-  return <div></div>;
+  return <div className="ui container">PostList</div>;
 };
 
 export default App;
